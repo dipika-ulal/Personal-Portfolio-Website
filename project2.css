@@ -1,0 +1,330 @@
+/* *{
+    font-family: 'popins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    /* background: #081b29;  */
+
+
+/* .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 9%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:small;
+}
+.logo{
+    font-size: 20px;
+    color: #ff8847;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 20px;
+    text-decoration:.3s;
+}
+.navbar a:hover{
+    color: #00abf0;
+}
+.Home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    background: url(dipika\ project\ pic.jpg); no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hcontent{
+    max-width: 700px;
+}
+.hcontent h1{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.hcontent p{
+    font-size: 15px;
+    width: 300px;
+    margin: 15px 0 20px;
+}
+.hcontent h3{
+    font-size: 20px;
+    color: #00abf0;
+    margin: 5px 0 2px;
+}
+.hcontent .btn-box{
+    height: 40px;
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-box a{
+    display: inline-flex;
+    width: 100px;
+    height: 75%;
+    background-color: lightseagreen;
+    border-radius: 10px;
+    border: 2px solid wheat;
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: px;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: .3s;
+
+}
+.btn-box a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #081b29;
+    z-index: -1;
+    transition: .5s;
+
+}
+.btn-box a:hover::before{
+    width: 100%;
+}
+.homesec{
+    position: absolute;
+    bottom: 50px;
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+.homesec a{
+    display: inline-flex;
+    width: 35px;
+    height: 30px;
+    background-color: transparent;
+    /* border: 2px solid #00abf0; */
+    /* border-radius: 50% */
+    /* font-size: 27px;
+    color: #00abf0;
+    text-decoration: none;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    align-items: center;
+
+}
+.homeimg{
+    position: absolute;
+    top: 0;
+    left: 200px;
+    width: 500px;
+    height: 100%;
+    background: transparent;
+   
+}
+.homeimg:hover{
+    background: yellowgreen;
+} */ */
+
+ */ */
+*{
+    font-family: 'popins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+body{
+    background-color: #1f242d;
+} 
+a{
+    color: white;
+    text-decoration: none;
+}
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 30px 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 1;
+
+}
+.logo{
+    font-size: 35px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 380px;
+}
+ul{
+    display: flex;
+
+}
+li{
+    list-style: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.b{
+    margin-right: 10px;
+}
+.navber ul li a{
+    font-size: 20px;
+    font-weight: 300;
+    transition: .5s;
+}
+.navbar ul li:hover a,
+.navbar ul li.active a{
+    color: #7cf03d;
+}
+.Home{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    padding: 50px 7% 0;
+    color: white; 
+}
+.home-info h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 25px;
+    margin-top: -20px;
+}
+p{
+    font-size: 18px;
+    margin: 10px 0 20px;
+}
+.btn-info{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #7cf03d;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-size: 15px;
+    color: #1f242d;
+    font-weight: 700;
+    box-shadow: 0 0 6px #7cf03d;
+    transition: .5s;
+}
+.btn:hover{
+    background: transparent;
+    color: #7cf03d;
+}
+.sci{
+    margin-left: 20px;
+}
+.home-info .btn-info .sci a{
+    display: inline-flex;
+    padding: 7px;
+    border: 1.5px solid #7cf03d;
+    font-size: 13px;
+    color: #f0733d;
+    border-radius: 50%;
+    margin: 0 3px;
+    transition: .5s;
+}
+.home-info .btn-info .sci a:hover{
+    background-color: wheat;
+    color: #1f242d;
+    box-shadow: 0 0 5px #7cf03d;
+}
+.img-box{
+    width: 28vw;
+    height: 28vw;
+    /* background-color: red; */
+    border-radius: 50%;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+    position: relative;
+}
+.img-box::before
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background: conic-gradient(#00ff66 0deg, transparent 90deg, transparent 360deg ); */
+    /* -webkit-mask:
+      radial-gradient(farthest-side, transparent calc(100% - 100px),black calc(100% - 6px)) ;
+    mask: radial-gradient(farthest-side,transparent calc(100% - 100px) , black calc(100% - 6px)); */
+    z-index:1; 
+    animation: rotate 4s linear infinite;
+    /* top:1px solid #00ff66;
+    left:1px solid #00ff66; */
+    border-radius: 50%;
+    border-top:  70px solid #00ff66;
+    border-right: 1px solid #00ff66;
+    border-left: 6px solid transparent;
+    border-bottom: 8px solid transparent;
+    padding: px;
+    transform: rotate(0deg);
+    box-shadow: 0 0 20px  #00ff66 , 0 0 50px  #00ff66 , 0 0 80px #00ff66;
+
+}
+.img-box::after{
+    animation-delay: -5s;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+ .img-icon img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+}
+.img-icon{
+    width: 100%;
+    height: 100%;
+    background: slatebe;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    z-index: ;
+    border: 1px solid #1f242d;
+}
+.home-img .img-box .img-icon img{
+    position: relative;
+    display: flex;
+    width: 100%;
+    object-fit: cover;
+}
+.home-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
